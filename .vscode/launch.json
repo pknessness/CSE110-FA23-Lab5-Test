@@ -1,0 +1,60 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MyServer",
+            "request": "launch",
+            "mainClass": "MyServer",
+            "projectName": "CSE110-FA23-Lab5-Test_9c07aec8"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path 'C:/Users/ansha/Downloads/openjfx-21_windows-x64_bin-sdk/javafx-sdk-21/lib' --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "client.App",
+            "projectName": "CSE110-FA23-Lab5-Test_9c07aec8",
+            "vmArgs": "--module-path 'C:/Users/ansha/Downloads/openjfx-21_windows-x64_bin-sdk/javafx-sdk-21/lib' --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "AudioRecorder",
+            "request": "launch",
+            "mainClass": "multithreading.AudioRecorder",
+            "projectName": "CSE110-FA23-Lab5-Test_9c07aec8",
+            "vmArgs": "--module-path 'C:/Users/ansha/Downloads/openjfx-21_windows-x64_bin-sdk/javafx-sdk-21/lib' --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "ThreadingNoThread",
+            "request": "launch",
+            "mainClass": "multithreading.ThreadingNoThread",
+            "vmArgs": "--module-path 'C:/Users/ansha/Downloads/openjfx-21_windows-x64_bin-sdk/javafx-sdk-21/lib' --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "ThreadingWithThread",
+            "request": "launch",
+            "mainClass": "multithreading.ThreadingWithThread",
+            "vmArgs": "--module-path 'C:/Users/ansha/Downloads/openjfx-21_windows-x64_bin-sdk/javafx-sdk-21/lib' --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "MyServer",
+            "request": "launch",
+            "mainClass": "server.MyServer",
+            "projectName": "CSE110-FA23-Lab5-Test_9c07aec8",
+            "vmArgs": "--module-path 'C:/Users/ansha/Downloads/openjfx-21_windows-x64_bin-sdk/javafx-sdk-21/lib' --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}

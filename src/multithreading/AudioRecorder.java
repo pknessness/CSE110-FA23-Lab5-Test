@@ -52,7 +52,14 @@ class AppFrame extends FlowPane {
     public void addListeners() {
         // Start Button
         startButton.setOnAction(e -> {
-            startRecording();
+            Thread t = new Thread(
+                new Runnable() {
+                @Override
+                public void run() {
+                    startRecording();
+                }
+                });
+            t.start();
         });
 
         // Stop Button
